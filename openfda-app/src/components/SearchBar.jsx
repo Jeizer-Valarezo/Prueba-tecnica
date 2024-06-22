@@ -27,7 +27,7 @@ const SearchBar = ({ onSearch }) => {
       style={{ flexDirection: 'column', width: '100%' }}
     >
       <TextField
-        label="Buscar Medicamento"
+        label="Search Drug"
         variant="outlined"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
